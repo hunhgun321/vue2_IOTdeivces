@@ -1,5 +1,25 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <Char></Char>
   </div>
 </template>
+
+<script>
+import Char from '../components/Char.vue'
+
+export default{
+  components:{
+    Char,
+  },
+  data(){
+    return{
+
+    }
+  },
+  methods:{
+
+  }
+
+}
+
+</script>
